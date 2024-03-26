@@ -54,7 +54,7 @@ git remote add origin https://github.com/zzzppcc/git.git 起别名
 git remote -v 查看别名
 
 远程协作开发
-git clone 地址 # （1）拉取代码 （2）初始化本地库 （3） 创建别名 可以用 git remote -v 查看
+git clone 地址 # （1）拉取代码 （2）初始化本地库 （3） 创建别名 可以用 git remote -v 查看 默认是origin
 git pull origin master
 git push -u origin master # 第一次带上-u参数
 git remote add origin
