@@ -27,7 +27,7 @@ git remote -v 查看别名
 远程协作开发
 git clone
 git pull origin master
-git push origin master
+git push -u origin master # 第一次带上-u参数
 git remote add origin
 
 
