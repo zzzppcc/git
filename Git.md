@@ -31,5 +31,9 @@ git push -u origin master # 第一次带上-u参数
 git remote add origin
 
 
+ssh 免密登录
+ssh -keygen -t rsa -C 1192472939@qq.com
+
+
 ```
 
